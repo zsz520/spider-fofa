@@ -80,7 +80,7 @@ for url, filename in urls.items():
                     existing_urls.append(url)  # 将新写入的URL添加到已存在的URL列表中
             file.write(content)  # 将原有内容写回文件
     except Exception as e:
-        print(f"获取URL {url} 失败：{str(e)}")
+        print(f"爬取 {filename} URL {url} 失败：{str(e)}")
         continue
     # 暂停2秒
     time.sleep(2)
