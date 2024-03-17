@@ -54,9 +54,22 @@ urls = {
 # 遍历网页列表
 for url, filename in urls.items():
     print(f'正在爬取{filename}.....')
-    # 发送GET请求获取源代码
-    response = requests.get(url)
-    page_content = response.text
+        # 创建一个Chrome WebDriver实例
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+
+    driver = webdriver.Chrome(options=chrome_options)
+    # 使用WebDriver访问网页
+    driver.get(url)  # 将网址替换为你要访问的网页地址
+    time.sleep(10)
+    # 获取网页内容
+    page_content = driver.page_source
+
+    # 关闭WebDriver
+    driver.quit()
+
     # 查找所有符合指定格式的网址
     pattern = r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"
     urls_all = re.findall(pattern, page_content)
@@ -70,12 +83,15 @@ for url, filename in urls.items():
     with open(filename, 'r', encoding='utf-8') as file:
         existing_urls = file.readlines()
     existing_urls = [url.strip() for url in existing_urls]  # 去除每行末尾的换行符
-    with open(filename, 'a', encoding='utf-8') as file:
+    with open(filename, 'r+', encoding='utf-8') as file:
+        content = file.read()
+        file.seek(0, 0)  # 将文件指针移到文件开头
         for url in urls:
             if url not in existing_urls:
                 file.write(url + "\n")
                 print(url)
                 existing_urls.append(url)  # 将新写入的URL添加到已存在的URL列表中
-    # 暂停1秒
+        file.write(content)  # 将原有内容写回文件
+    # 暂停2秒
     time.sleep(2)
     print(f'{filename}爬取完毕,下一个')
