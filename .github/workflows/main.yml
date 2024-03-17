@@ -1,4 +1,4 @@
-name: spiderfofa
+name: spider-fofa
 
 on:
   schedule:
@@ -18,14 +18,14 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install selenium requests futures eventlet
 
       - name: Run all
         run: python ${{ github.workspace }}/All.py
 
       - name: 提交更改
         run: |
-          git config --local user.email "zsz520@qq.com"
+          git config --local user.email "1258107748@qq.com"
           git config --local user.name "zsz520"
           git add .
           git commit *.txt -m "Add generated file"
