@@ -40,7 +40,7 @@ urls = {
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJOaW5neGlhIEh1aXp1Ig%3D%3D": "Ningxia Huizu.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IlRXIg%3D%3D": "TW.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJISyI%3D": "HK.txt",
-    #西藏
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiImJiByZWdpb249IlhpemFuZyI%3D": "Xizang.txt",#Xizang
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIg": "SXZ.txt",
     "https://fofa.info/result?qbase64=L1pIR1hUVi9pbmRleC5waHA%3D": "ZHGX.txt",
     "https://fofa.info/result?qbase64=c3RhdGljL3R2aC5qcy5neg%3D%3D": "TVH.txt",
