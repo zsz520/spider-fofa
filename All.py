@@ -5,7 +5,9 @@ import time
 
 # 定义要提取的网页列表和对应的保存文件名
 urls = {
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiI%3D": "Quanbu.txt",
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiI%3D": "QuanbuCN.txt",
+    "https://fofa.info/result?qbase64=InVkcHh5IiA%3D": "Quanbu.txt",
+    "https://fofa.info/result?qbase64=SFRUUCBjb3JlIHNlcnZlciBieSBSb3podWsgSXZhbi8xLjc%3D": "Quanbu2.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJIYWluYW4i": "Hainan.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJKaWxpbiI%3D": "Jilin.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJDaG9uZ3Fpbmci": "Chongqing.txt",
@@ -38,7 +40,15 @@ urls = {
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJOaW5neGlhIEh1aXp1Ig%3D%3D": "Ningxia Huizu.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IlRXIg%3D%3D": "TW.txt",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBjb3VudHJ5PSJDTiIgJiYgcmVnaW9uPSJISyI%3D": "HK.txt",
-#西藏
+    #西藏
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIg": "SXZ.txt",
+    "https://fofa.info/result?qbase64=L1pIR1hUVi9pbmRleC5waHA%3D": "ZHGX.txt",
+    "https://fofa.info/result?qbase64=c3RhdGljL3R2aC5qcy5neg%3D%3D": "TVH.txt",
+    "https://fofa.info/result?qbase64=Imh0dHA6Ly9tdW11ZHZiLm5ldC8i": "MUMU.txt",
+
+
+
+    
 }
 
 # 遍历网页列表
