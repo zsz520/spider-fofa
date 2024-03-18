@@ -20,9 +20,12 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
 
-      - name: Run all
-        run: python ${{ github.workspace }}/All.py
+      - name: Run fofa
+        run: python ${{ github.workspace }}/fofa.py
 
+      - name: Run zoom
+        run: python ${{ github.workspace }}/zoom.py
+        
       - name: 提交更改
         run: |
           git config --local user.email "zsz520@qq.com"
