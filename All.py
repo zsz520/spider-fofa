@@ -46,7 +46,6 @@ urls = {
     "https://fofa.info/result?qbase64=c3RhdGljL3R2aC5qcy5neg%3D%3D": "TVH.txt",
     "https://fofa.info/result?qbase64=Imh0dHA6Ly9tdW11ZHZiLm5ldC8i": "MUMU.txt",
 
-    "https://www.zoomeye.org/searchResult?q=app%3A%22udpxy%22%2Bcountry%3A%22CN%22": "zoomquanbu.txt",
 
 
 
