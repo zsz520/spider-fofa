@@ -45,21 +45,23 @@ urls = {
     "https://fofa.info/result?qbase64=L1pIR1hUVi9pbmRleC5waHA%3D": "ZHGX.txt",
     "https://fofa.info/result?qbase64=c3RhdGljL3R2aC5qcy5neg%3D%3D": "TVH.txt",
     "https://fofa.info/result?qbase64=Imh0dHA6Ly9tdW11ZHZiLm5ldC8i": "MUMU.txt",
+    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICAmJiBpc19kb21haW49dHJ1ZQ%3D%3D": "udpandmsdyuming.txt",
+    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04i": "udpandmsdcn.txt",
 
 
-
-
-    
+}
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 # 遍历网页列表
 for url, filename in urls.items():
     try:
         print(f'正在爬取{filename}.....')
         # 发送GET请求获取源代码
-        response = requests.get(url)
+        response = requests.get(url, headers=headers)
         page_content = response.text
         # 查找所有符合指定格式的网址
-        pattern = r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"
+        pattern = r'<a href="http://(.*?)" target="_blank">'
         urls_all = re.findall(pattern, page_content)
         urls = set(urls_all)  # 去重得到唯一的URL列表
         existing_urls = []
