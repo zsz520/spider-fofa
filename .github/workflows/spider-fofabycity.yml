@@ -23,7 +23,7 @@ jobs:
       - name: Run fofabycity.py
         run: python ${{ github.workspace }}/fofabycity.py
 
-      - name: Run zoom
+      - name: Run zoom.py
         run: python ${{ github.workspace }}/zoom.py
         
       - name: 提交更改
