@@ -1,4 +1,4 @@
-name: spider-fofa
+name: spider-fofabycity
 
 on:
   schedule:
@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
 
-      - name: Run fofa
-        run: python ${{ github.workspace }}/fofa.py
+      - name: Run fofabycity.py
+        run: python ${{ github.workspace }}/fofabycity.py
 
       - name: Run zoom
         run: python ${{ github.workspace }}/zoom.py
