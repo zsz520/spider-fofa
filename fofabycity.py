@@ -27,7 +27,7 @@ urls = {
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IkJhcmthbSI%3D": "Barkam.txt",#aba
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9ImxpYW5nc2hhbiI%3D": "Liangshan.txt",
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlhpY2hhbmci": "Xichang.txt",#Liangshan
-    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlhpY2hhbmci": "Kangding.txt",#ganzi
+    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IkthbmdkaW5nIg%3D%3D": "Kangding.txt",#ganzi
     
     
     
@@ -42,11 +42,12 @@ urls = {
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IllpY2hhbmci": "Yichang.txt",
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlhpYW5uaW5nIg%3D%3D": "Xianning.txt",
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IkppbmdtZW4i": "Jingmen.txt",
-    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlhpYW50YW8i": "Xiantao.txt",
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IkVuc2hpIg%3D%3D": "Enshi.txt",
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IkV6aG91Ig%3D%3D": "Ezhou.txt",
-    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlRpYW5tZW4i": "Tianmen.txt",
     "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlN1aXpob3Ui": "Suizhou.txt",
+    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlRpYW5tZW4i": "Tianmen.txt",
+    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9IlhpYW50YW8i": "Xiantao.txt",
+    "https://fofa.info/result?qbase64=KCJIVFRQIGNvcmUgc2VydmVyIGJ5IFJvemh1ayBJdmFuLzEuNyIgfHwgInVkcHh5IikgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9InFpYW5qaWFuZyI%3D": "Qianjiang.txt",
     
 
 }
