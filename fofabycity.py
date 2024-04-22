@@ -86,6 +86,6 @@ for url, filename in urls.items():
     except Exception as e:
         print(f"爬取 {filename} URL {url} 失败：{str(e)}")
         continue
-    # 暂停2秒
-    time.sleep(2)
+    # 暂停5秒
+    time.sleep(5)
     print(f'{filename}爬取完毕,下一个')
