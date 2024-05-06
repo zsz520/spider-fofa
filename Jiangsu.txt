@@ -1,3 +1,7 @@
+dsm.shpyc.top:8000
+speedtest.shpyc.top:8000
+tv.shpyc.top:8000
+openwrt.shpyc.top:8000
 221.228.148.159:4022
 114.236.175.161:8000
 117.60.61.19:4000
