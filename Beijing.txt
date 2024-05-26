@@ -1,3 +1,4 @@
+222.129.32.50:58888
 123.117.237.206:8000
 www.jay.sh.cn
 resources.jay.sh.cn
