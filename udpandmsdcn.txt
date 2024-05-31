@@ -1,3 +1,10 @@
+bt4ah.lilng.cn:4022
+123.120.205.77:8888
+gov.cn.lilng.cn:4022
+58.63.64.22:8888
+c7c1s.lilng.cn:4022
+113.248.107.221:8888
+183.153.109.163:8098
 www.elf1j.lilng.cn:4022
 ya2t7y.lilng.cn:4022
 l8atp.lilng.cn:4022
