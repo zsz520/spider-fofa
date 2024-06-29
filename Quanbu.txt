@@ -1,3 +1,12 @@
+mp.mi4.xyz:8888
+dsp.mp.mi4.xyz:8888
+42.91.62.201:10000
+qhdrive.mi4.xyz:8888
+ixgsgpsa.mi4.xyz:8888
+k.mi4.xyz:8888
+hgiue6pb.mi4.xyz:8888
+o.dsp.mp.mi4.xyz:8888
+do.dsp.mp.mi4.xyz:8888
 jx.mi4.xyz:8888
 dy6yrjoc.mi4.xyz:8888
 tc0itczr.mi4.xyz:8888

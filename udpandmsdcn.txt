@@ -1,3 +1,9 @@
+mp.mi4.xyz:8888
+dsp.mp.mi4.xyz:8888
+220.161.66.112:9999
+42.91.62.201:10000
+k.mi4.xyz:8888
+do.dsp.mp.mi4.xyz:8888
 ixgsgpsa.mi4.xyz:8888
 pxhobwww.k.mi4.xyz:8888
 tc0itczr.mi4.xyz:8888
