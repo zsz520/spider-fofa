@@ -1,3 +1,13 @@
+cs.ly123.fun:10000
+ogcdanastool.ly123.fun:10000
+www.alist.ly123.fun:10000
+q.ly123.fun:10000
+www.jellyfin.ly123.fun:10000
+qb.ly123.fun:10000
+jellyfin.ly123.fun:10000
+alist.ly123.fun:10000
+sc.ly123.fun:10000
+8he4s6yz.ly123.fun:10000
 27.9.91.251:8003
 27.10.211.128:8003
 14.105.105.77:10000
