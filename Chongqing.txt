@@ -1,3 +1,4 @@
+27.11.48.30:8005
 chx.it5000.com:8000
 bxzkdctj.72.web.it5000.com:8000
 not-exists-dns.it5000.com:8000
