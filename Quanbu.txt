@@ -1,3 +1,7 @@
+188.187.27.238:81
+udpxy-forwarder.uae.kad-it.ch
+udpxy.uae.kad-it.ch
+udpxy-forwarder-dc.uae.kad-it.ch
 45.85.141.130:81
 175.9.187.212:5555
 171.217.133.157:4022
