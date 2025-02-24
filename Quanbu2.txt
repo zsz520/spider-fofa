@@ -1,3 +1,4 @@
+115.52.242.243:4022
 b.ha500.synology.me:4022
 a.ha500.synology.me:4022
 ha500.synology.me:4022
