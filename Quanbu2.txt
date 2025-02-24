@@ -1,3 +1,4 @@
+b.ha500.synology.me:4022
 a.ha500.synology.me:4022
 ha500.synology.me:4022
 116.30.250.67:8088
