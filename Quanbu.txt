@@ -1,3 +1,6 @@
+45.85.143.205:4022
+121.238.98.51:8787
+183.152.172.151:4022
 cpcalendars.udpxy.com
 wbsubdomain.a.bb.ccc.dddd.www.udpxy.com
 218.6.235.42:9999
