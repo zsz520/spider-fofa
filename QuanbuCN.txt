@@ -1,3 +1,9 @@
+slack.luckgate.shop
+ssl.luckgate.shop
+videoconf.luckgate.shop
+webex.luckgate.shop
+teams-web.luckgate.shop
+gotomeeting.luckgate.shop
 180.113.232.97:6544
 115.58.217.186:81
 123.96.239.119:9999
